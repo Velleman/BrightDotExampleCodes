@@ -12,14 +12,14 @@
 
 // Which pin on the Arduino is connected to the BrightDots?
 // On a VMW100 this is 12, on VMW101 this is 19
-#define PIN            T5
+#define PIN            26
 
 // How many BrihgtDots are attached to the Arduino?à
 // On a VMW100 this is 24
-#define NUMPIXELS      10
+#define NUMPIXELS      126
 
 //Set the brightness value (max:255, but not recommended!)
-#define brightnessValue 150
+#define brightnessValue 25
 
 // When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
 // Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
